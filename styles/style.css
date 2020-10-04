@@ -280,18 +280,12 @@
   align-content: stretch  ;
 }
 
-.footer__columns {
+.footer__column {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto 0 auto;
   width: 90%;
-}
-
-.footer__column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer__column_content_copyright {

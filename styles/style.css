@@ -212,7 +212,7 @@
   height: 790px;
   padding-top: 100px;
   position: relative;
-  background: left bottom / 867px 637px url(../images/feynman.png) #f2f2f2 no-repeat  ;
+  background: left bottom / 867px 637px url(../images/feynman.png) #f2f2f2 no-repeat;
 }
 
 .feynman__title {
@@ -266,7 +266,7 @@
   padding: 60px 0 40px 0;
   display: flex;
   flex-direction: row;
-  align-content: stretch  ;
+  align-content: stretch;
 }
 
 .footer__columns {

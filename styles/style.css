@@ -20,12 +20,6 @@
   align-items: center;
 }
 
-.list_style_none {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .header__title {
   margin: 0; /* обнуление margin, унаследованного от normalize.css */
   margin-left: 64px;
@@ -53,6 +47,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -66,9 +64,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-}
-
-.header__square-pic_position { /* абсолютное позиционирование квадрата */
   position: absolute;
   top: 64px;
   right: 0;
@@ -242,6 +237,10 @@
   top: 50%;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .kaufman {
   overflow: hidden;
   position: relative;
@@ -251,11 +250,14 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   height: 877px;
   width: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: 1;
 }
 
 .footer {
@@ -312,6 +314,12 @@
 }
 
 .footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -319,8 +327,6 @@
   color: #f2f2f2;
 }
 
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
+.footer__column-link:hover {
+  text-decoration: underline;
 }

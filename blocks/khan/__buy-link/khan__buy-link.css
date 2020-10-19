@@ -6,8 +6,12 @@
   text-decoration: none;
   color: #2f80ed;
   align-self: start;
+  transition-property: opacity;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 
 .khan__buy-link:hover {
   text-decoration: underline;
+  opacity: .5;
 }

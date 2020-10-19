@@ -4,8 +4,12 @@
   font-weight: normal;
   text-decoration: none;
   color: #f2f2f2;
+  transition-property: opacity;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 
 .footer__column-link:hover {
   text-decoration: underline;
+  opacity: .5;
 }

@@ -7,8 +7,12 @@
   position: absolute;
   right: 48px;
   top: 50%;
+  transition-property: opacity;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 
 .feynman__link:hover {
   text-decoration: underline;
+  opacity: .5;
 }

@@ -1,3 +1,10 @@
 .logo {
   width: 183px;
+  transition-property: opacity;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+}
+
+.logo:hover {
+  opacity: .5;
 }

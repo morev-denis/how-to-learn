@@ -1,6 +1,7 @@
 .two-columns__paragraph {
   margin: 0; /* обнуление margin, унаследованного от normalize.css */
   margin-bottom: 30px;
+  padding: 0 5px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;

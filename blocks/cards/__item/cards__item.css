@@ -1,3 +1,8 @@
 .cards__item {
   margin-right: 100px;
+  flex-basis: 240px;
+}
+
+.cards__item:last-child {
+  margin-right: 0px;
 }
